@@ -6,4 +6,4 @@ Unfortunately, after editing or replacing the configmap it takes about 1-1.5 min
 
 Note the `DOTNET_USE_POLLING_FILE_WATCHER` option in dockerfile. It is needed for `reloadOnChange` to work with symlinks; K8s mounts configmap as a symbolic link.
 
-Execute the `run.ps1` to build and deploy the service, then edit the configmap.
+Execute the `DynamicLogsWebApp\run.ps1` to build and deploy the service, then edit the configmap.
